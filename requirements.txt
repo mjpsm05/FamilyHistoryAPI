@@ -1,0 +1,8 @@
+flask
+flask-cors
+sentence-transformers
+pinecone
+requests
+gunicorn
+waitress
+python-dotenv
