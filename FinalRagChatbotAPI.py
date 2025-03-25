@@ -54,7 +54,8 @@ embedder = SentenceTransformer('all-MiniLM-L6-v2')
 credentials = {
     "nathaniel": "password1",
     "kwame": "password2",
-    "mazamesso": "@Lotovisa05"
+    "mazamesso": "@Lotovisa05",
+    "koffi": "koffi"
 }
 
 @app.route('/login', methods=['POST'])
