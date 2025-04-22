@@ -15,7 +15,7 @@ CORS(app)  # Enable CORS for all routes
 
 # Hugging Face API Configuration
 HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")
-HF_MODEL = "mistralai/Mistral-7B-Instruct-v0.3"
+HF_MODEL = "meta-llama/Llama-3.3-70B-Instruct"
 HF_API_URL = f"https://api-inference.huggingface.co/models/{HF_MODEL}"
 
 # Pinecone API Configuration
